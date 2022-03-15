@@ -10,6 +10,10 @@ img {
     max-width: 100%;
 }
 
+body {
+    transition: none;
+}
+
 
 /* debug */
 
