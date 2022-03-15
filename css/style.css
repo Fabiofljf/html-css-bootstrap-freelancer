@@ -14,10 +14,28 @@ img {
 /* debug */
 
 .debug [class^="col"] {
-    background-color: blue;
-    min-height: 100px;
-    border: 1px solid black;
+    min-height: 50px;
+}
+
+.debug [class^="row"] {
+    min-height: 50px;
 }
 
 
 /* utility */
+
+.br_pry {
+    background-color: #1ABC9C;
+}
+
+.br_sec {
+    background-color: white;
+}
+
+.br_menu {
+    background-color: #2C3E50;
+}
+
+.br_footer {
+    background-color: #3A546D;
+}
