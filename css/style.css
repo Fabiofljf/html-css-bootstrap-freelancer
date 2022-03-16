@@ -71,3 +71,12 @@ img {
 #special_text_color {
     color: var(--br_free_primary);
 }
+
+.fs_08 {
+    font-size: 0.8rem;
+    ;
+}
+
+.mb_0 {
+    margin-bottom: 0px;
+}
