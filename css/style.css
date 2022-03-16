@@ -10,10 +10,6 @@ img {
     max-width: 100%;
 }
 
-body {
-    transition: none;
-}
-
 
 /* debug */
 
@@ -28,18 +24,29 @@ body {
 
 /* utility */
 
-.br_pry {
-    background-color: #1ABC9C;
+:root {
+    --br_free_primary: #1ABC9C;
+    --br_free_secondary: white;
+    --br_free_menu: #2C3E50;
+    --br_free_footer: #3A546D;
 }
 
-.br_sec {
-    background-color: white;
+.br_free_primary {
+    background-color: var(--br_free_primary);
 }
 
-.br_menu {
-    background-color: #2C3E50;
+.br_free_secondary {
+    background-color: var(--br_free_secondary);
 }
 
-.br_footer {
-    background-color: #3A546D;
+.br_free_menu {
+    background-color: var(--br_free_menu);
+}
+
+.br_free_footer {
+    background-color: var(--br_free_footer);
+}
+
+.fs_07 {
+    font-size: 0.7rem;
 }
