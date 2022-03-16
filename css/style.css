@@ -98,3 +98,8 @@ img {
     border-radius: 20px;
     display: inline-block;
 }
+
+.link_social>svg {
+    height: 30px;
+    margin-left: 2px;
+}
