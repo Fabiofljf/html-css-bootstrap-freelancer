@@ -57,17 +57,20 @@
     </header>
     <!-- /#site_header -->
     <main id="site_main">
-        <div class="container jumbotron br_free_primary">
-            <div class="row text_color_light">
-                <div class="col-8 offset-2 align-items-center my-3">
-                    <img src="./img/avatar.svg" alt="immagine utente">
-                    <h2 class="text-uppercase text-center my-3">start bootstrap</h2>
-                    <p class="text-uppercase text-center my-3"><strong>&star;</strong></p>
-                    <p class="text-center fs_07 my-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+        <section class="jumbotron br_free_primary">
+            <div class="container">
+                <div class="row text_color_light">
+                    <div class="col-8 offset-2 align-items-center my-3">
+                        <img src="./img/avatar.svg" alt="immagine utente">
+                        <h2 class="text-uppercase text-center my-3">start bootstrap</h2>
+                        <p class="text-uppercase text-center my-3"><strong>&star;</strong></p>
+                        <p class="text-center fs_07 my-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- /.container jumbotron -->
+
+        </section>
+        <!-- /.jumbotron -->
 
         <div class="container portafoglio">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-5">
@@ -93,51 +96,69 @@
         </div>
         <!-- /.container portafoglio -->
 
-        <div class="container about br_free_primary">
-            <div class="row row-cols-1 row-cols-md-2 my-4 text_color_light">
-                <h2 class="text-center text-uppercase">about</h2>
-                <p class="text-center text-uppercase"><strong>&star;</strong></p>
-                <div class="col px-5">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, ullam?</p>
-                </div>
-                <div class="col px-5">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, ullam?</p>
+        <section class="about br_free_primary">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 my-4 text_color_light">
+                    <h2 class="text-center text-uppercase">about</h2>
+                    <p class="text-center text-uppercase"><strong>&star;</strong></p>
+                    <div class="col px-5">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, ullam?</p>
+                    </div>
+                    <div class="col px-5">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, ullam?</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- /.container about -->
+        </section>
+        <!-- /.about -->
 
-        <container class="contact">
-            <div class="row my-4 px-5">
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputname" class="form-label">Name</label>
-                        <input type="name" class="form-control" id="exampleInputname" aria-describedby="name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmailadress" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmailadress" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputphonenumber" class="form-label">Phone Number</label>
-                        <input type="phonenumber" class="form-control" id="exampleInputphonenumber">
-                    </div>
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">Message</label>
-                    </div>
-                    <button type="submit" class="btn btn_free_primary mt-2">Send</button>
-                </form>
+        <section class="contact">
+            <div class="container">
+                <div class="row my-4 px-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputname" class="form-label">Name</label>
+                            <input type="name" class="form-control" id="exampleInputname" aria-describedby="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmailadress" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmailadress" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputphonenumber" class="form-label">Phone Number</label>
+                            <input type="phonenumber" class="form-control" id="exampleInputphonenumber">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn_free_primary mt-2">Send</button>
+                    </form>
+                </div>
             </div>
-        </container>
+        </section>
         <!-- /.contact -->
 
-        <div class="container location br_free_menu">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-4">
+        <section class="location br_free_menu">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 my-4 px-5 text-center text_color_light">
+                    <div class="col">
+                        <h5>LOCATION</h5>
+                        <p>2215 John Daniel Clark, NY</p>
+                    </div>
+                    <div class="col">
+                        <h5>AROUND THE WEB</h5>
 
+                    </div>
+                    <div class="col">
+                        <h5>ABOUT FREELANCE</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <strong id="special_text_color">Lorem, ipsum.</strong></p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- /.container location -->
+        </section>
+        <!-- /.location -->
+
     </main>
     <!-- /#site_main -->
     <footer id="site_footer"></footer>

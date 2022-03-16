@@ -35,6 +35,10 @@ img {
     background-color: var(--br_free_primary);
 }
 
+.br_free_tx_primary {
+    color: var(--br_free_primary);
+}
+
 .br_free_secondary {
     background-color: var(--br_free_secondary);
 }
@@ -58,4 +62,12 @@ img {
 
 .text_color_light {
     color: white;
+}
+
+.text_color_primary {
+    color: var(--br_free_primary);
+}
+
+#special_text_color {
+    color: var(--br_free_primary);
 }
