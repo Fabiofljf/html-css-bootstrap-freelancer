@@ -80,3 +80,21 @@ img {
 .mb_0 {
     margin-bottom: 0px;
 }
+
+.border_special_white {
+    background-color: white;
+    height: 3px;
+    width: 50px;
+    vertical-align: middle;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.border_special_dark {
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    vertical-align: middle;
+    border-radius: 20px;
+    display: inline-block;
+}
