@@ -58,7 +58,7 @@
     <!-- /#site_header -->
     <main id="site_main">
         <div class="container jumbotron br_free_primary">
-            <div class="row ">
+            <div class="row text_color_light">
                 <div class="col-8 offset-2 align-items-center my-3">
                     <img src="./img/avatar.svg" alt="immagine utente">
                     <h2 class="text-uppercase text-center my-3">start bootstrap</h2>
@@ -94,7 +94,7 @@
         <!-- /.container portafoglio -->
 
         <div class="container about br_free_primary">
-            <div class="row row-cols-1 row-cols-md-2 my-4">
+            <div class="row row-cols-1 row-cols-md-2 my-4 text_color_light">
                 <h2 class="text-center text-uppercase">about</h2>
                 <p class="text-center text-uppercase"><strong>&star;</strong></p>
                 <div class="col px-5">
@@ -108,8 +108,26 @@
         <!-- /.container about -->
 
         <container class="contact">
-            <div class="row my-4">
-
+            <div class="row my-4 px-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputname" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="exampleInputname" aria-describedby="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmailadress" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmailadress" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputphonenumber" class="form-label">Phone Number</label>
+                        <input type="phonenumber" class="form-control" id="exampleInputphonenumber">
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn_free_primary mt-2">Send</button>
+                </form>
             </div>
         </container>
         <!-- /.contact -->
