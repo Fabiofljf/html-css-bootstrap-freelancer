@@ -103,3 +103,9 @@ img {
     height: 30px;
     margin-left: 2px;
 }
+
+@media screen and (min-width: 470px) {
+    .fontprova {
+        font-size: 1.35rem;
+    }
+}
